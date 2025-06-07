@@ -1,0 +1,98 @@
+
+.LOGO img{
+    margin: 0px;
+    text-align: left;
+    width: 200px;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header .MENU ul li{
+    margin-top: 15px;
+    color: white;
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+    float: left;
+}
+
+.left{
+    height: 1400px;
+    margin-top: 10px;
+    width: 75%;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-right: 4px solid blue;
+    float: left; 
+    padding-bottom: 30px;
+}
+
+.left h2{
+    margin-left: 10px;
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+}
+
+.left p{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.left .pic1 img{
+    width: 100%;
+}
+
+.left .GrayBox1,.GrayBox2{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.left .GrayBox1 .pic2,.GrayBox2 .pic2{
+    display:inline-block;
+}
+
+.left .GrayBox1 img,.GrayBox2 img{
+    width: 200px;
+    margin: 20px 10px -10px 10px;
+}
+
+.right{
+    height: 1400px;
+    margin-top: 10px;
+    width: 24%;
+    padding-top: 30px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 4px solid red;
+    float: left;
+}
+
+.right ul li{
+    list-style: none;
+}
+
+.right h3{
+    border-bottom: 2px dotted black;
+}
+
+footer{
+    clear: left;
+    background-color: black;
+    height: 50px;
+}
+
+.FOOTER{ 
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    list-style: none;
+}
+
