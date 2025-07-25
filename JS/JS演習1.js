@@ -1,4 +1,4 @@
-document.write("問1");
+document.write("★問1★");
 document.write("<br>");
 
 for(var a = 1; a <=5; a ++) {
